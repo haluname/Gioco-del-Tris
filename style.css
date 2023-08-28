@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    height: 20vh;
+}
+
+main{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; 
+}
+
+div{
+     background-color: #ccc;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    bottom: 0;
+    height: 10vh;
+    text-align: center;
+}
