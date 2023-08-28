@@ -4,8 +4,14 @@ body{
 }
 
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    font-size: 30px;
     height: 20vh;
+    background-color: aliceblue;
+    margin-bottom: 50px;
 }
 
 main{
@@ -35,7 +41,16 @@ div{
 }
 
 footer{
+    margin-top: 10px;
     bottom: 0;
-    height: 10vh;
+    height: 5vh;
     text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    section{
+        width: 360px;
+        height: 360px;
+    }
+    
 }
